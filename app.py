@@ -6,7 +6,7 @@ import pandas as pd
 from helper import helper
 from preprocessor import preprocessor
 
-st.sidebar.title("whatsapp chat Analyser")
+st.sidebar.title("whatsapp chat Analyzer")
 upload_file = st.sidebar.file_uploader("choose a file")
 if upload_file is not None:
     bytes_data=upload_file.getvalue()
